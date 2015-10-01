@@ -14,11 +14,12 @@
     										'first_Name'=>$res['first_name'],
     										'last_Name'=>$res['last_name'],
     										'email'=>$res['email'],
-    										'user_name'=>$res['user_name']
+                                            'user_name'=>$res['user_name'],
+    										'use_id'=>$res['use_id']
     									);
     	}else{
     		$response['success']=0;
-    		$response['msg']="Login Failed";
+    		$response['msg']="Invalid username or password!! Try Again.";
     		$response['seskey']=$username.' '.$password; 
     	}
     }else{
