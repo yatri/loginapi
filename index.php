@@ -6,7 +6,10 @@
     if($page =='login'){
     	include('login.php');
     }else if($page =='register'){
-    	include('register.php');
+        include('register.php');
+    }
+    else if($page =='uploadcomment'){
+    	include('uploadComment.php');
     }
     else{
     		$response['success']=0;
