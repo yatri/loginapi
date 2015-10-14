@@ -11,6 +11,9 @@
     else if($page =='uploadcomment'){
     	include('uploadComment.php');
     }
+    else if($page =='loadimage'){
+        include('loadimage.php');
+    }
     else{
     		$response['success']=0;
     		$response['msg']="Invalid Request";
