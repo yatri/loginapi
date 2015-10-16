@@ -14,6 +14,12 @@
     else if($page =='loadimage'){
         include('loadimage.php');
     }
+    else if($page =='upload'){
+        include('upload.php');
+    }
+    else if($page =='loadtopproduct'){
+        include('loadtopproduct.php');
+    }
     else{
     		$response['success']=0;
     		$response['msg']="Invalid Request";
